@@ -1,11 +1,13 @@
-﻿using Prism.Navigation;
+﻿
+
+using Prism.Navigation;
 
 namespace Taxi.Prism.ViewModels
 {
     public class HomePageViewModel : ViewModelBase
     {
         public HomePageViewModel(INavigationService navigationService)
-            : base(navigationService)
+         : base (navigationService)
         {
             Title = "Taxi Qualifier";
         }
