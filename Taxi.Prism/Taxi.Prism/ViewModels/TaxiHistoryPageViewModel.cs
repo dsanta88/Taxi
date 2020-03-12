@@ -7,12 +7,12 @@ using System.Linq;
 
 namespace Taxi.Prism.ViewModels
 {
-    public class PrismContentPage1ViewModel : ViewModelBase
+    public class TaxiHistoryPageViewModel : ViewModelBase
     {
-        public PrismContentPage1ViewModel(INavigationService navigationService)
+        public TaxiHistoryPageViewModel(INavigationService navigationService)
          : base(navigationService)
         {
-
+            Title = "See taxi history";
         }
     }
 }

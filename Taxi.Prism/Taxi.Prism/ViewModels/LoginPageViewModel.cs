@@ -7,12 +7,12 @@ using System.Linq;
 
 namespace Taxi.Prism.ViewModels
 {
-    public class PrismContentPage1ViewModel : ViewModelBase
+    public class LoginPageViewModel : ViewModelBase
     {
-        public PrismContentPage1ViewModel(INavigationService navigationService)
+        public LoginPageViewModel(INavigationService navigationService)
          : base(navigationService)
         {
-
+            Title = "Login";
         }
     }
 }

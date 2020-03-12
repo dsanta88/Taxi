@@ -7,12 +7,12 @@ using System.Linq;
 
 namespace Taxi.Prism.ViewModels
 {
-    public class PrismContentPage1ViewModel : ViewModelBase
+    public class ReportPageViewModel : ViewModelBase
     {
-        public PrismContentPage1ViewModel(INavigationService navigationService)
+        public ReportPageViewModel(INavigationService navigationService)
          : base(navigationService)
         {
-
+            Title = "Report an incident";
         }
     }
 }
