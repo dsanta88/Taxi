@@ -32,6 +32,8 @@ namespace Taxi.Prism.Droid
             LoadApplication(new App(new AndroidInitializer()));
         }
 
+
+        //Metodo para pedir el permiso.
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
         {
             PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);

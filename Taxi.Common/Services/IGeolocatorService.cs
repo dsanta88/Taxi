@@ -8,6 +8,7 @@ namespace Taxi.Common.Services
 
         double Longitude { get; set; }
 
+        //Metodo para cargar la  Latitude y Longitud 
         Task GetLocationAsync();
     }
 }
